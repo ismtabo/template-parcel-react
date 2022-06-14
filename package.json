@@ -1,0 +1,31 @@
+{
+  "name": "react-vigenere",
+  "version": "1.0.0",
+  "description": "React application with Vigenere cipher and decipher",
+  "main": "dist/index.js",
+  "repository": "https://github.com/ismtabo/react-vigenere",
+  "author": "Ismael Taboada Rodero <ismael.jtr@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html",
+    "lint": "npx eslint ./"
+  },
+  "dependencies": {
+    "@types/react-dom": "^18.0.5",
+    "parcel-bundler": "^1.12.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.28.0",
+    "@typescript-eslint/parser": "^5.28.0",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.30.0",
+    "prettier": "2.7.0",
+    "typescript": "^4.7.3"
+  }
+}
